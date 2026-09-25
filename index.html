@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BIKANER MOBILE | Apple Store Surat</title>
+
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Helvetica Neue",Arial,sans-serif;
+background:#000;color:#fff;line-height:1.5
+}
+a{text-decoration:none;color:inherit}
+.container{max-width:1150px;margin:auto;padding:0 22px}
+
+nav{
+position:sticky;top:0;z-index:10;
+background:rgba(0,0,0,.82);
+backdrop-filter:blur(20px);
+border-bottom:1px solid #222;
+}
+.nav{
+height:70px;display:flex;align-items:center;justify-content:space-between
+}
+.logo{font-size:21px;font-weight:700;letter-spacing:.5px}
+.logo span{font-weight:400;color:#aaa}
+.navlinks{display:flex;gap:28px;color:#aaa;font-size:14px}
+.navlinks a:hover{color:#fff}
+
+.hero{
+min-height:650px;
+display:flex;align-items:center;
+text-align:center;
+background:
+radial-gradient(circle at 50% 30%,#292929 0,#0b0b0b 38%,#000 72%);
+}
+.hero h1{font-size:clamp(48px,9vw,92px);letter-spacing:-4px}
+.hero h1 span{color:#aaa}
+.hero p{font-size:20px;color:#aaa;margin:18px 0 30px}
+.btn{
+display:inline-block;padding:14px 25px;border-radius:30px;
+background:#fff;color:#000;font-weight:600;margin:6px;
+transition:.25s
+}
+.btn:hover{transform:translateY(-2px);background:#ddd}
+.btn.dark{background:#1c1c1e;color:#fff;border:1px solid #444}
+
+section{padding:90px 0}
+.title{text-align:center;margin-bottom:45px}
+.title h2{font-size:48px;letter-spacing:-2px}
+.title p{color:#999;margin-top:8px}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+gap:18px
+}
+.card{
+background:linear-gradient(145deg,#171717,#090909);
+border:1px solid #292929;
+border-radius:25px;
+padding:35px 20px;
+text-align:center;
+transition:.3s
+}
+.card:hover{transform:translateY(-6px);border-color:#555}
+.icon{font-size:52px;margin-bottom:18px}
+.card h3{font-size:24px}
+.card p{color:#888;margin-top:7px}
+
+.repair{
+background:#f5f5f7;color:#111;
+border-radius:35px;
+padding:65px 35px;
+}
+.repair h2{font-size:48px;letter-spacing:-2px}
+.repair p{color:#666;margin:10px 0 28px}
+.services{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+gap:12px;margin-top:30px
+}
+.service{
+background:#fff;border:1px solid #ddd;border-radius:18px;padding:22px
+}
+.service b{display:block;margin-bottom:5px}
+
+.about{
+display:grid;grid-template-columns:1fr 1fr;gap:35px;align-items:center
+}
+.aboutbox{
+background:#111;border:1px solid #292929;border-radius:30px;padding:40px
+}
+.aboutbox h3{font-size:30px;margin-bottom:15px}
+.aboutbox p{color:#999}
+
+.contact{
+text-align:center;
+background:linear-gradient(180deg,#000,#101010)
+}
+.contact h2{font-size:50px}
+.contact p{color:#999;margin:12px 0 25px}
+.address{
+max-width:650px;margin:30px auto;
+background:#111;border:1px solid #292929;
+border-radius:22px;padding:25px;color:#bbb
+}
+
+footer{
+border-top:1px solid #222;
+padding:35px 0;text-align:center;color:#777;font-size:13px
+}
+
+@media(max-width:700px){
+.navlinks{display:none}
+.hero{min-height:570px}
+.hero h1{letter-spacing:-3px}
+section{padding:65px 0}
+.title h2,.repair h2,.contact h2{font-size:38px}
+.about{grid-template-columns:1fr}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container nav">
+<div class="logo"> BIKANER <span>MOBILE</span></div>
+<div class="navlinks">
+<a href="#products">Products</a>
+<a href="#repair">Repair</a>
+<a href="#about">About</a>
+<a href="#contact">Contact</a>
+</div>
+</div>
+</nav>
+
+<header class="hero">
+<div class="container">
+<h1>BIKANER<br><span>MOBILE</span></h1>
+<p>Premium Apple Products. Trusted Service.</p>
+
+<a class="btn" href="#products">Explore Products</a>
+<a class="btn dark" href="#repair">Apple Repair</a>
+</div>
+</header>
+
+<section id="products">
+<div class="container">
+<div class="title">
+<h2>Apple Products</h2>
+<p>Everything Apple. All in one place.</p>
+</div>
+
+<div class="products">
+
+<div class="card">
+<div class="icon">📱</div>
+<h3>iPhone</h3>
+<p>Latest & premium iPhone models</p>
+</div>
+
+<div class="card">
+<div class="icon">💻</div>
+<h3>MacBook</h3>
+<p>MacBook Air & MacBook Pro</p>
+</div>
+
+<div class="card">
+<div class="icon">⌨️</div>
+<h3>iPad</h3>
+<p>Powerful iPad lineup</p>
+</div>
+
+<div class="card">
+<div class="icon">⌚</div>
+<h3>Apple Watch</h3>
+<p>Smart. Stylish. Powerful.</p>
+</div>
+
+<div class="card">
+<div class="icon">🎧</div>
+<h3>AirPods</h3>
+<p>Premium wireless audio</p>
+</div>
+
+<div class="card">
+<div class="icon"></div>
+<h3>Apple Accessories</h3>
+<p>Original Apple accessories</p>
+</div>
+
+</div>
+</div>
+</section>
+
+<section id="repair">
+<div class="container">
+<div class="repair">
+
+<h2>Apple Repair & Service</h2>
+<p>Professional service for your Apple devices.</p>
+
+<a class="btn" href="https://wa.me/918200414801?text=Hello%20Bikaner%20Mobile,%20I%20need%20Apple%20repair%20service.">
+Book a Repair
+</a>
+
+<div class="services">
+
+<div class="service">
+<b>📱 iPhone Repair</b>
+Screen, battery & hardware
+</div>
+
+<div class="service">
+<b>💻 MacBook Repair</b>
+Hardware & software service
+</div>
+
+<div class="service">
+<b>⌨️ iPad Repair</b>
+Screen & hardware service
+</div>
+
+<div class="service">
+<b>⌚ Apple Watch</b>
+Service & replacement
+</div>
+
+<div class="service">
+<b>🎧 AirPods</b>
+Service & diagnostics
+</div>
+
+<div class="service">
+<b>🔋 Battery Replacement</b>
+Apple device battery service
+</div>
+
+</div>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container about">
+
+<div>
+<div class="title" style="text-align:left;margin-bottom:20px">
+<h2>Trusted Apple Store</h2>
+</div>
+<p style="color:#999;font-size:18px">
+BIKANER MOBILE brings Apple products and professional Apple device
+services together under one roof in Surat.
+</p>
+</div>
+
+<div class="aboutbox">
+<h3>27+ Years</h3>
+<p>
+Trusted experience in mobile retail and customer service.
+Visit our store for Apple products, genuine accessories and repair services.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container">
+
+<h2>Visit BIKANER MOBILE</h2>
+<p>We're ready to help you with your next Apple device.</p>
+
+<div class="address">
+<b>📍 Store Address</b><br><br>
+Shop No. 214, City Centre Market,<br>
+Opp. A.V. Sons, Ghod Dod Road,<br>
+Parle Point, Surat
+</div>
+
+<a class="btn" href="tel:8200414801">📞 8200414801</a>
+
+<a class="btn" href="tel:9879588505">📞 9879588505</a>
+
+<a class="btn dark"
+href="https://www.instagram.com/bikaner__mobile__surat__/">
+Instagram
+</a>
+
+<a class="btn dark"
+href="https://wa.me/918200414801">
+WhatsApp
+</a>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+© 2026 BIKANER MOBILE · Surat<br>
+Apple Products · Repair · Service
+</div>
+</footer>
+
+</body>
+</html>
